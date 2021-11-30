@@ -108,7 +108,7 @@ import {Button as Buttonbootstrap, Modal} from "react-bootstrap"
   //   return <CircleLoaderComponent />
   //  }
 
-  if (loading || loadingInsert || loadingDelete){
+  if (loading || loadingInsert || loadingDelete || loadingUpdate){
     return <CircleLoaderComponent />
    }
 
